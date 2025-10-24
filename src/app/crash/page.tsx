@@ -1,6 +1,10 @@
 "use client";
+import { useEffect } from "react";
 
 export default function CrashPage() {
-  // This will crashes the page
-  throw new Error("Forced crash: Component encountered a critical issue.");
+  useEffect(() => {
+    throw new Error("Forced crash: Component encountered a critical issue.");
+  }, []);
+
+  return <div>Crash test</div>;
 }
