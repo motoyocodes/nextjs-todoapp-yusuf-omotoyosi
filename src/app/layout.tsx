@@ -2,7 +2,7 @@ import "./globals.css";
 import QueryProvider from "./providers/QueryProvider";
 
 export const metadata = {
-  title: "My Next App",
+  title: "My Next Todo App",
   description: "Example with TanStack Query",
 };
 
